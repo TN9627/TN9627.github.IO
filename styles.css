@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap');
+
+
+html {
+    background-color: #F6F6F6;
+}
+h1:first-of-type { 
+    color:#0d1f2d;
+    font-size: 50px;
+    font-family: "DM Sans", sans-serif;
+}
+
+h1 { 
+    color:#0d1f2d;
+    font-size: 40px;
+    font-family: "DM Sans", sans-serif;
+    margin: 25px 0px;
+}
+
+:not(h1){
+    font-family: "Inter", sans-serif;
+}
+
+.coming-soon {
+    margin: 0px;
+     border: 5px solid #2c2a27;
+}
+
+p {
+    background-color: #44413c;
+    color: #dfdbd5;
+    padding: 10px;
+    margin: 0px;
+}
+
+p:nth-of-type(1) {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.important {
+    color:#e2a376;
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+#todo-container {
+    color:#546a7b;
+    background-color: #e6e6e6;
+    padding:20px;
+    border:2.5px solid gray;
+    margin:3px 0;
+    width: fit-content;
+}
+
+#todo-container li {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.user-input-container {
+    color:#546a7b;
+    background-color: #e6e6e6;
+    padding:10px;
+    border:2.5px solid gray;
+    margin:3px 0;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: left;
+    width: fit-content;
+}
+.user-input-container input, .user-input-container button {
+   border-radius: 5px;
+   margin: 0 3px;
+}
+
+.remove-button {
+    background-color: #e6e6e6;
+    color: #546a7b;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 2.5px;
+    margin-left: 10px;
+}
+
+a:link {
+    color:rgb(250, 164, 178);
+}
+
+a:visited{
+    color:rgb(171, 82, 82);
+}
+
+a:hover{
+    color:rgb(141, 214, 235);
+    text-decoration:none;
+}
